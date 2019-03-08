@@ -1,0 +1,10 @@
+Fontes usadas:
+	Título Principal: Arial;
+	Títulos e Subtítulos: Arial Rounded MT Bold;
+	Textos-descrições: Tahoma regular.
+
+
+Cores:
+	Menu: 3029b3
+	Banner: 003e8a
+	Quem sou pra baixo: 3029b3

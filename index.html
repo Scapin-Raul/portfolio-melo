@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RAUL DE MELO OLIVEIRA - WEBDESIGNER</title>
+</head>
+
+<body>
+    <header>
+        <div id="topo">
+                <span class="botao_menu">Raul | WebDesigner</span>
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html" id="raul">Raul | WebDesigner</a></li>
+                    <li><a href="#quem_sou">Quem sou?</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <h1>Raul de Melo de <br> Oliveira</h1>
+            <h2>Ascendente na área de <br>Web Design</h2>
+        </section>
+        <div id="div_quem">
+            <section id="quem_sou">
+                <div>
+                    <h2>Quem Sou?</h2>
+                    <div class="texto">
+                        <p>     Olá! Meu nome é Raul de Melo Oliveira,
+                                tenho 17 anos, recém-formado na área
+                                de desenvolvimento de sistemas oferecido
+                                pelo SENAI de Informática (localizado na
+                                Santa Cecília).</p>
+                    </div>
+                </div>
+                <div class="foto_img">
+                        <img src="img/foto_raul.jpeg" alt="Foto do Raul de Melo" title="Raul de Melo">
+                </div>
+            </section>   
+       </div>
+       <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="imagi">
+                    <img src="img/Mc_bonalds.png" alt="Foto do projeto da Hamburgueria Mc Bonald's" title="Projeto da Hamburgueria Mc Bonald's">
+                    <img src="img/ponto_digitalpng.png" alt="Foto do projeto do Ponto Digital" title="Projeto do Ponto Digital">
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Possuo proeficiência em:</h2>
+            <ul>
+                <div>
+                    <li>Photoshop</li>
+                    <li>HTMLS</li>
+                    <li>CSS3</li>
+                    <li>C#</li>
+                    <li>Cloud</li>
+                </div>
+                <div>
+                    <li>SQL</li>
+                    <li>React</li>
+                    <li>React Native</li>
+                    <li>UX</li>
+                    <li>Scrum</li>
+                </div>
+            </ul>
+            <p>Podendo doravante realizar com mestria qualquer projeto solicitado!</p>
+        </section>
+       <footer id="contatos">
+           <div id="cont">
+                <h2>Contatos</h2>
+                <p>Email: 2003raulzinho@gmail.com</p>
+                <p>Tel: (11) 96434-3507</p> <br>
+                <a href="#">Voltar para o Topo!</a>
+            </div>
+            <div id="formulario">
+                <h2>Formulário para contato</h2>
+                <form action="" method="GET">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <br>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" name="assunto">
+                    <br>
+                    <label for="msg">Mensagem:</label>
+                    <input type="text" name="msg">
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+       </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            var nav = $('.menu');
+            var botao = $('.botao_menu');
+            botao.on('click',function(){
+                nav.toggleClass('active');
+            });
+        });
+    </script>
+
+    </main>
+</body>
+</html>
